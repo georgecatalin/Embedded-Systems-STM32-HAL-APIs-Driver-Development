@@ -14,7 +14,7 @@ In most of the cases, I have specified the target board in the heading of source
 ### STM32 Nucleo F429ZI
 ![STM32 Nucleo 144 Development Board](STM32_Nucleo_144.jpg)
 
-Commits by
-George Calin
-george.calin [at] gmail.com
-Connect me on LinkedIn: https://www.linkedin.com/in/cgeorge1978/
+### Commits by
+* George Calin
+* george.calin [at] gmail.com
+* Connect me on LinkedIn: https://www.linkedin.com/in/cgeorge1978/
