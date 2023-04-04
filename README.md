@@ -6,8 +6,8 @@ Course work associated with the Udemy.com course "Embedded Systems STM32 HAL API
 
 https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/
 
-* The most of the source code examples are coded for the the specifics of  Nucleo F429ZI. 
-* Few other examples apply to the STM32F429I_DISCOVERY1 board. 
+* The most of the source code examples are coded for the the specifics of  Nucleo F429ZI (registries and pins configuration). 
+* Other examples apply to the STM32F429I_DISCOVERY1 board (registries and pins configuration). 
 
 In most of the cases, I have specified the target board in the heading of source code files. 
 
