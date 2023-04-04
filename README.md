@@ -2,7 +2,7 @@
 Bare-metal programming for the SMT32 Microcontrollers using the HAL library
 
 ## Summary
-Course work associated with the Udemy.com course "Embedded Systems Bare-Metal Programming Ground Up™ (STM32)" , authored by Israel Gbati.
+Course work associated with the Udemy.com course "Embedded Systems STM32 HAL APIs Driver Development" , authored by Israel Gbati.
 
 https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/
 
