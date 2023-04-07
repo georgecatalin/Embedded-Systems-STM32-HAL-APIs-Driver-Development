@@ -19,7 +19,7 @@ extern UART_HandleTypeDef h_uart_1;
 
 void uart1_init(void);
 
-char message[30] = "Hello from Cornel IoT!\n\r";
+char message[20] = "Hello from Cornel IoT!\n\r";
 
 
 uint8_t button_status;
@@ -38,7 +38,7 @@ int main(void)
 	{
 
 		//HAL_StatusTypeDef HAL_UART_Transmit (UART_HandleTypeDef * huart, const uint8_t * pData, uint16_t Size, uint32_t Timeout)
-		HAL_UART_Transmit (&h_uart_1,(uint8_t *) message, 20, 100);
+		HAL_UART_Transmit (&h_uart_1,(uint8_t *) message, 21, 100);
 		HAL_Delay(10);
 	}
 }
