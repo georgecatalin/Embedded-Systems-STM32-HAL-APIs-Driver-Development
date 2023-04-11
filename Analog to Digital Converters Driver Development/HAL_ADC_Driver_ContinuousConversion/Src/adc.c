@@ -51,7 +51,7 @@ void adc_pa1_continuous_conversion_init(void)
 	 hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
 	 hadc1.Init.NbrOfConversion = 1;
 	 hadc1.Init.DMAContinuousRequests = DISABLE;
-	 hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+	 hadc1.Init.EOCSelection =EOC_SEQ_CONV; 										//ADC_EOC_SINGLE_CONV;
 
 	 HAL_ADC_Init(&hadc1);
 
