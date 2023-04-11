@@ -6,6 +6,8 @@ Course work associated with the Udemy.com course "Embedded Systems STM32 HAL API
 
 https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/
 
+The source code is adapted to work with and tested on STM32 Nucleo 144 family boards.
+
 * The most of the source code examples are coded for the the specifics of  Nucleo F429ZI (registries and pins configuration). 
 * Other examples apply to the STM32F429I_DISCOVERY1 board (registries and pins configuration). 
 
