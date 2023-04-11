@@ -7,7 +7,7 @@ Source code adapted after the Udemy.com course "Embedded Systems STM32 HAL APIs 
 
 https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/
 
-The source code is modified to work with and tested on STM32 Nucleo 144 family boards.
+The source code is tested on STM32 Nucleo 144 family boards.
 
 ### STM32 Nucleo F429ZI
 ![STM32 Nucleo 144 Development Board](STM32_Nucleo_144.jpg)
