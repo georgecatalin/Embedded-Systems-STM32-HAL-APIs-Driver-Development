@@ -1,5 +1,14 @@
 # Embedded Systems STM32 HAL APIs Driver Development
-Bare-metal programming for the SMT32 Microcontrollers using the HAL library for DMA,ADC,UART,TIMERS, GPIO,SPI,I2C,RTC,RCC
+Bare-metal programming for the SMT32 Microcontrollers using the HAL library for 
+* DMA,
+* ADC,
+* UART,
+* TIMER, 
+* GPIO,
+* SPI,
+* I2C,
+* RTC,
+* RCC
 
 ## Summary
 Course work associated with the Udemy.com course "Embedded Systems STM32 HAL APIs Driver Development" , authored by Israel Gbati.
