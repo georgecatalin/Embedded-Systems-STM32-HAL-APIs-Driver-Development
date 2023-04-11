@@ -12,7 +12,7 @@ The source code is tested on STM32 Nucleo 144 family boards.
 ### STM32 Nucleo F429ZI
 ![STM32 Nucleo 144 Development Board](STM32_Nucleo_144.jpg)
 
-Bare-metal drivers coded for:
+Bare-metal drivers included:
 * DMA,
 * ADC,
 * UART,
@@ -21,6 +21,7 @@ Bare-metal drivers coded for:
 * SPI,
 * I2C,
 * RTC,
+* SysTick,
 * RCC
 
 ### Commits by
