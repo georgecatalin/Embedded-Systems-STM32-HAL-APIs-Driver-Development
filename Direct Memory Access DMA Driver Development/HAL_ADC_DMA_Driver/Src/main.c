@@ -47,8 +47,6 @@ int main(void)
 	for(;;)
 	{
 
-
-	    printf("The sensor value : %d   \n\r",(int)sensor_value[1]);
 	}
 }
 
