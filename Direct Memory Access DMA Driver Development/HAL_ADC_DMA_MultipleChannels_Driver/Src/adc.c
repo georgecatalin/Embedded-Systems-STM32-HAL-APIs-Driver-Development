@@ -27,7 +27,7 @@ void adc_pa1pa2_dma_init(void)
 
     __HAL_RCC_GPIOA_CLK_ENABLE();
 
-    GPIO_InitStruct.Pin = GPIO_PIN_1|GPIO_PIN_2;
+    GPIO_InitStruct.Pin = GPIO_PIN_1 | GPIO_PIN_2;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -40,6 +40,7 @@ void adc_pa1pa2_dma_init(void)
     hadc1.Instance = ADC1;
     hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV8;
     hadc1.Init.Resolution = ADC_RESOLUTION_12B;
+    hadc1.Init.ScanConvMode = ENABLE; //Set it to scan mode because there are more than 1 channel to follow
     hadc1.Init.ContinuousConvMode = ENABLE;
     hadc1.Init.DiscontinuousConvMode = DISABLE;
     hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
@@ -58,6 +59,7 @@ void adc_pa1pa2_dma_init(void)
 
     HAL_ADC_ConfigChannel(&hadc1, &sConfig);
 
+
     // Set the Channel 2 for ADC1 pin A2
     sConfig.Channel =  ADC_CHANNEL_2; // ADC123_IN2 means either ADC1 CHANNEL 2
     sConfig.Rank = 2; //this has be different from the rank of the other channels . There is no need to assign again 'sConfig.SamplingTime = ADC_SAMPLETIME_480CYCLES;' since we are reusing the sConfig object/struct here
@@ -68,6 +70,7 @@ void adc_pa1pa2_dma_init(void)
     __HAL_RCC_DMA2_CLK_ENABLE();
 
 }
+
 
 void set_priority_enable_interrupt_for_dma(void)
 {
