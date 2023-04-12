@@ -50,7 +50,7 @@ void adc_pa1_dma_init(void)
 
     HAL_ADC_Init(&hadc1);
 
-    sConfig.Channel =  ADC_CHANNEL_0; // ADC123_IN1 means either ADC1 CHANNEL 1, OR ADC2 CHANNEL 1, OR ADC3 CHANNEL 1
+    sConfig.Channel =  ADC_CHANNEL_1; // ADC123_IN1 means either ADC1 CHANNEL 1
     sConfig.Rank = 1;
     sConfig.SamplingTime = ADC_SAMPLETIME_480CYCLES;
 
