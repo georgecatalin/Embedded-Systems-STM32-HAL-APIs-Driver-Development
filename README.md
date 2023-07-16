@@ -3,7 +3,9 @@ Bare-metal programming for the SMT32 Microcontrollers using the HAL library.
 
 
 ## Summary
-Source code adapted after the Udemy.com course "Embedded Systems STM32 HAL APIs Driver Development" , authored by Israel Gbati.
+
+## Repository info
+The content within this repository is my own work produced as a result of completing the course  "Embedded Systems STM32 HAL APIs Driver Development" , authored by Israel Gbati.
 
 https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/
 
@@ -25,7 +27,7 @@ Bare-metal drivers included:
 * SysTick,
 * RCC
 
-### Commits by
+### About me
 * George Calin
 * george.calin [at] gmail.com
-* Connect me on LinkedIn: https://www.linkedin.com/in/cgeorge1978/
+* LinkedIn: https://www.linkedin.com/in/cgeorge1978/
